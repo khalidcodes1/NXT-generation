@@ -9,8 +9,8 @@
 body {
     font-family: Archivo+Black, sans-serif;
     font-weight: 400;
-    color: black;
-    background-color: powderblue;
+    color: whitesmoke;
+    background-color: midnightblue;
 }
 
 /* Logo and headings */
@@ -18,10 +18,42 @@ h1, h2{
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: whitesmoke;
 }
 
 #logo{
     float: left;
     font-size: 270%;
+}
+
+/* navigation */
+#menu{
+    font-size: 120%;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    color: crimson;
+    font-size: 30px;
+    border-bottom: 1px solid crimson;
+}
+
+.active{
+    border-bottom: 1px solid crimson;
 }
