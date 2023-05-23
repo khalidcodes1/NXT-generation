@@ -9,4 +9,18 @@
 body {
     font-family: Archivo+Black, sans-serif;
     font-weight: 400;
+    color: black;
+}
+
+/* Logo and headings */
+h1, h2{
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#logo{
+    float: left;
+    font-size: 300%;
 }
