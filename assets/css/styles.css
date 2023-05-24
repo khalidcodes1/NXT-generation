@@ -9,8 +9,8 @@
 body {
     font-family: Archivo+Black, sans-serif;
     font-weight: 400;
-    color: whitesmoke;
-    background-color: midnightblue;
+    color: black;
+    background-color: whitesmoke;
 }
 
 /* Logo and headings */
@@ -18,7 +18,7 @@ h1, h2{
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: whitesmoke;
+    color: black;
 }
 
 #logo{
@@ -61,6 +61,10 @@ h1, h2{
 /* hero image */
 #hero-image{
     height: 600px;
-    width: 100%;
-    background-image: url("../images/hero-image\ nxt.jpg");
+    width: 60%;
+    background-image: url("../images/hero-3-min.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    clear: both;
+    background-position: left;
 }
