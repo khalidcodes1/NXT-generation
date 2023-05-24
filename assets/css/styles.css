@@ -57,3 +57,10 @@ h1, h2{
 .active{
     border-bottom: 1px solid crimson;
 }
+
+/* hero image */
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/hero-image\ nxt.jpg");
+}
