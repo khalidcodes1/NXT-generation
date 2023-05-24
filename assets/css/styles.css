@@ -9,8 +9,8 @@
 body {
     font-family: Archivo+Black, sans-serif;
     font-weight: 400;
-    color: black;
-    background-color: whitesmoke;
+    color: white;
+    background-color: slategray;
 }
 
 /* Logo and headings */
@@ -18,7 +18,7 @@ h1, h2{
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: white;
 }
 
 #logo{
@@ -51,11 +51,11 @@ h1, h2{
 #menu a:hover{
     color: crimson;
     font-size: 30px;
-    border-bottom: 1px solid crimson;
+    border-bottom: 1px solid #ff4545;
 }
 
 .active{
-    border-bottom: 1px solid crimson;
+    border-bottom: 1px solid #ff4545;
 }
 
 /* hero image */
@@ -67,4 +67,21 @@ h1, h2{
     background-repeat: no-repeat;
     clear: both;
     background-position: left;
+
+    /* animation on loading */
+    animation-name: zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* animation */
+@keyframes zoom{
+    from{
+        transform: scale(0.7);
+
+    }
+    to{
+        transform: scale(1);
+
+    }
 }
